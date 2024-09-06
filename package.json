@@ -1,0 +1,18 @@
+{
+    "name": "repro-tseslint-no-deprecated",
+    "version": "1.0.0",
+    "main": "index.js",
+    "private": true,
+    "license": "MIT",
+    "scripts": {
+        "lint": "eslint ."
+    },
+    "devDependencies": {
+        "eslint": "9.9.1",
+        "typescript": "5.5.4",
+        "typescript-eslint": "8.4.0"
+    },
+    "dependencies": {
+        "@angular/core": "^18.2.3"
+    }
+}
